@@ -137,7 +137,7 @@ function App() {
                 placeholder="Add a new task"
                 value={newTask}
                 onChange={(e) => setNewTask(e.target.value)}
-                style={{ width: '550px'}}
+                style={{ width: '500px'}}
               />
               <div className="input-group-append" style={{ marginLeft: '8px' }}></div>
              <button type="submit" className="btn btn-primary btn-sm align-items-center" style={{ height: '40px' }}>
